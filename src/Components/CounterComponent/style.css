@@ -1,5 +1,10 @@
+.container{
+  display: flex;
+  align-items: center;
+}
 button {
     background-color: yellow;
+    color: blueviolet;
     color: black;
     width: 30px;
     height: 30px;
@@ -8,4 +13,12 @@ button {
     font-size: 18px;
     margin: 20px;
     cursor: pointer;
+  }
+  button:hover{
+    background-color:blueviolet ;
+    color:yellow ;
+    transition: 0.3s ease-in-out;
+  }
+  button:hover{
+    transition: 0.3s ease-in-out;
   }

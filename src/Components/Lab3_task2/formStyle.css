@@ -1,0 +1,38 @@
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signup-form h2 {
+    text-align: center;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .signup-form button {
+    width: 50%;
+    padding: 5px;
+    background-color: yellow;
+    color:blueviolet ;
+    border-radius: 20px;
+  }
+  .signup-form button:hover {
+    background-color: blueviolet;
+    color: yellow;
+    transition: 0.3s ease-in-out;
+  }
+  .signup-form button:not(hover) {
+    transition: 0.3s ease-in-out;
+  }
+  
